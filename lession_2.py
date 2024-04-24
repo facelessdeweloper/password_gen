@@ -27,3 +27,14 @@ def generate_password(length):
 
 # Пример вызова функции с длиной пароля 12
 generate_password(12)
+
+def generate_nicknames():
+    uppercase_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    lowercase_letters = 'abcdefghijklmnopqrstuvwxyz'
+    nick = int(input('Длинна никнейма?'))
+    log = (random.choice(uppercase_letters))
+    for i in range(nick - 1):
+        log += random.choice(lowercase_letters)
+    print(log)
+generate_nicknames()
+

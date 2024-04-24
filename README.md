@@ -1,1 +1,2 @@
-# password_gen
+a password generator
+даёт надёжный пароль
